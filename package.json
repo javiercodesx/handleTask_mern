@@ -1,0 +1,10 @@
+{
+  "name": "handleTask_mern",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"pnpm run dev:api --prefix handleTask_server\" \"pnpm run dev --prefix handleTask_client\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}
