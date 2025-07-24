@@ -2,7 +2,7 @@
   "name": "handleTask_mern",
   "version": "1.0.0",
   "scripts": {
-    "dev": "concurrently \"pnpm run dev:api --prefix handleTask_server\" \"pnpm run dev --prefix handleTask_client\""
+    "dev": "concurrently \"pnpm --filter ./handleTask_server run dev\" \"pnpm --filter ./handleTask_client run dev\""
   },
   "devDependencies": {
     "concurrently": "^8.0.0"
